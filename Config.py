@@ -1,0 +1,24 @@
+SIZE = 4	# Minidoku
+# SIZE = 9	# Sudoku
+# SIZE = 16	# Hexadoku
+# SIZE = 25	# Megadoku
+
+GRIDSIZE = 30
+LINEWIDTH = 2
+
+WIDTH = (SIZE * GRIDSIZE)
+HEIGHT = WIDTH
+WINDOWSIZE = [WIDTH, HEIGHT]
+
+BLACK = [0, 0, 0]
+WHITE = [255, 255, 255]
+RED = [255, 0, 0]
+GREEN = [23, 147, 79]
+GREEN2 = [8, 64, 27]
+GRAY = [200, 200, 200]
+
+SLOW = 1
+MEDIUM = 2
+FAST = 3
+
+SPEED = FAST
